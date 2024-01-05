@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.left{
+    width: 25px;
+}
+
+.right{
+    width: 75px;
+}
