@@ -3,13 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
     <title>Spotify</title>
 </head>
 <body>
-    <div class="container">
-        <div class="left"></div>
-        <div class="right"></div>
+    <div class="container flex bg-black">
+        <div class="left border">
+            <div class="home bg-grey rounded">
+                <div class="logo"></div>
+                <ul>
+                    <li>Home</li>
+                    <li>Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded">
+                <div class="heading">
+                    <img src="" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+
+                <div class="songList">
+
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="right border">
+            <div class="header">
+                <div class="navbar">
+                    <div class="hamburgerContainer"></div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log In</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
